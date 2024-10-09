@@ -93,6 +93,20 @@ body {
     color: #7F63E7;
 }
 
+/* Photo and Image Container */
+.hero-image-container {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #7F63E7;
+}
+
 /* Section Styling */
 section {
     padding: 50px;
