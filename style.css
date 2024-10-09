@@ -48,7 +48,7 @@ header ul li a:hover {
 
 .intro-container {
     display: flex;
-    max-width: 1200px;
+    max-width: 1000px;
     justify-content: space-between;
     align-items: center;
 }
@@ -60,7 +60,7 @@ header ul li a:hover {
     height: 300px;
     object-fit: cover; /* Ensures the image fits the container without distortion */
     border: 5px solid #4F82E1; /* Optional border */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 1); /* Adds a shadow around the image */
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2); /* Adds a shadow around the image */
     margin-right: 70px; /* Creates space between the image and text */
 }
 
