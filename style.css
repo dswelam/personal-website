@@ -1,105 +1,136 @@
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #101522;
-    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0D0D2B;
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #0a74da;
-    padding: 20px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 h1, h2, h3 {
-    margin: 0;
+    color: #FFFFFF;
 }
 
-.profile-container {
+/* Navbar Styling */
+.navbar {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
+    background-color: #0D0D2B;
 }
 
-.profile-pic img {
-    border-radius: 50%;
-    max-width: 300px;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7F63E7;
 }
 
-.profile-text {
-    max-width: 600px;
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-.contact-btn {
+.nav-links li {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff6347;
-    color: #ffffff;
+}
+
+.nav-links a {
+    color: #FFFFFF;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
 }
 
-.contact-btn:hover {
-    background-color: #d9534f;
+.nav-links a:hover {
+    color: #7F63E7;
 }
 
-#academics, #projects, #social-links {
-    padding: 40px;
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #0D0D2B;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.hero-content span {
+    color: #7F63E7;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #7F63E7;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #7F63E7;
+    color: #7F63E7;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: #FFFFFF;
+    color: #7F63E7;
+}
+
+/* Section Styling */
+.about-section, .academics-section, .projects-section, .skills-section, .social-links-section, .contact-section {
+    padding: 50px;
     text-align: center;
+    background-color: #1E1E2E;
 }
 
-#projects .project-list {
+.project-list, .skills-container {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-#projects .project {
-    background-color: #0a74da;
-    padding: 20px;
+.project, .skill {
+    background-color: #333;
     border-radius: 10px;
-    width: 300px;
+    padding: 20px;
 }
 
-#projects .project a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
+.skill h3 {
+    color: #7F63E7;
 }
 
-#social-links ul {
-    list-style: none;
-    padding: 0;
+.progress-bar {
+    background-color: #333;
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
 }
 
-#social-links ul li {
-    margin: 10px 0;
+.progress {
+    background-color: #7F63E7;
+    height: 100%;
+    border-radius: 10px;
 }
 
+/* Footer */
 footer {
-    background-color: #0a74da;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-    color: #ffffff;
+    background-color: #0D0D2B;
+    color: #FFFFFF;
 }
