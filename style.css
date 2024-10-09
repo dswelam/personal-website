@@ -56,7 +56,7 @@ header ul li a:hover {
 /* Profile Image Styling */
 .profile-pic img {
     border-radius: 50%; /* Circular image */
-    width: 600px;
+    width: 400px;
     height: 600px;
     object-fit: cover; /* Ensures the image fits the container without distortion */
     border: 5px solid #4F82E1; /* Optional border */
