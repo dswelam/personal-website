@@ -48,7 +48,7 @@ header ul li a:hover {
 
 .intro-container {
     display: flex;
-    max-width: 1100px;
+    max-width: 1200px;
     justify-content: space-between;
     align-items: center;
 }
