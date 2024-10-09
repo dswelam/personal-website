@@ -8,88 +8,112 @@
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="logo">Dania.ai</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certificates">Certificates</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-content">
-            <h1>Hi, I am <span>Dania Swelam</span></h1>
-            <p>I’m a passionate software engineer specializing in AI and full-stack development.</p>
-            <div class="cta-buttons">
-                <a href="resume.pdf" class="btn-primary">Download CV</a>
-                <a href="#projects" class="btn-secondary">Start Project</a>
-            </div>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="hero-image-container">
-            <img src="photo_of_me.jpg" alt="Dania Swelam" class="hero-image">
+    </header>
+
+    <!-- Main Section with Introduction -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <h1>Hi, I am <span>Dania Swelam</span></h1>
+                    <p>I'm a Computer Science student specializing in AI and Cognitive Science. Currently, I'm focused on learning full-stack development and AI-based applications.</p>
+                    <div class="buttons">
+                        <a href="#" class="btn-primary">Download CV</a>
+                        <a href="#" class="btn-secondary">Start Project</a>
+                    </div>
+                </div>
+                <div class="intro-img">
+                    <img src="photo_of_me.jpg" alt="Dania Swelam">
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- About Me Section -->
-    <section id="about" class="about-section">
-        <h2>About Me</h2>
-        <p>Hello! My name is Dania Swelam. I am currently a junior at NC State University, majoring in <strong>Computer Science</strong> with a minor in Cognitive Science and a concentration in Artificial Intelligence. I am passionate about creating impactful projects in AI and full-stack development.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <h2>My Projects</h2>
-        <div class="project-list">
-            <div class="project-card">
-                <h3>AI Chatbot</h3>
-                <p>A chatbot developed using AI to improve user interaction.</p>
-                <a href="https://github.ncsu.edu/dswelam/ai-chatbot" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project-card">
-                <h3>Cognitive Science Research</h3>
-                <p>An in-depth research project at the intersection of AI and Cognitive Science.</p>
-                <a href="https://github.ncsu.edu/dswelam/cog-sci-research" target="_blank">View on GitHub</a>
-            </div>
+    <!-- About me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! My name is Dania Swelam, and I am currently pursuing a degree in Computer Science at NC State University with a minor in Cognitive Science and a concentration in Artificial Intelligence. I love applying creativity to solve technical challenges in software development and AI!</p>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills-section">
-        <h2>My Skills</h2>
-        <div class="skills-container">
-            <div class="skill-card">
-                <h3>TensorFlow</h3>
-                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-content">
+                <div class="skill">
+                    <p>Skill: Tensor Flow</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <!-- Add more skills -->
             </div>
-            <div class="skill-card">
-                <h3>Python</h3>
-                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>AI Chatbot</h3>
+                    <p>This project involves creating an AI-driven chatbot that uses natural language processing to interact with users in real time.</p>
+                    <a href="https://github.ncsu.edu/dswelam/ai-chatbot" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Cognitive Science Research</h3>
+                    <p>An in-depth research project on the intersection of AI and Cognitive Science.</p>
+                    <a href="https://github.ncsu.edu/dswelam/cog-sci-research" target="_blank">View on GitHub</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Certificates Section -->
-    <section id="certificates" class="certificates-section">
-        <h2>Certificates</h2>
-        <div class="certificate-card">
-            <img src="certificate1.png" alt="Certificate 1">
-            <h3>AI Development</h3>
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2>Certificates</h2>
+            <div class="certificate-list">
+                <img src="certificate1.jpg" alt="Certificate 1">
+                <img src="certificate2.jpg" alt="Certificate 2">
+                <!-- Add more certificates -->
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <h2>Let's Connect</h2>
-        <a href="mailto:dswelam@ncsu.edu" class="btn-primary">Get in Touch</a>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Start a Project Together</h2>
+            <a href="#" class="btn-primary">Get in touch</a>
+        </div>
     </section>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Dania Swelam. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Dania Swelam. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dania-swelam" target="_blank">LinkedIn</a>
+                <a href="https://github.ncsu.edu/dswelam" target="_blank">GitHub</a>
+            </div>
+        </div>
     </footer>
 
 </body>
