@@ -55,8 +55,8 @@ header ul li a:hover {
 
 /* Profile Image Styling */
 .profile-pic img {
-    border-radius: 80%; /* Circular image */
-    width: 400px;
+    border-radius: 50%; /* Circular image */
+    width: 400px; /* Twice as large as before */
     height: 400px;
     object-fit: cover; /* Ensures the image fits the container without distortion */
     border: 5px solid #4F82E1; /* Optional border */
@@ -65,7 +65,7 @@ header ul li a:hover {
 }
 
 .intro-text h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin: 0;
 }
 
@@ -107,7 +107,7 @@ header ul li a:hover {
 }
 
 .about-section p {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     color: #D9E4F2;
 }
@@ -146,6 +146,7 @@ header ul li a:hover {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .project-item {
