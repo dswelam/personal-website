@@ -160,3 +160,19 @@ header ul li a:hover {
     text-decoration: none;
     font-size: 1.5em;
 }
+
+/* Footer */
+footer {
+    background-color: #15172B;
+    padding: 20px;
+    text-align: center;
+    color: #D9E4F2;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #4F82E1;
+}
