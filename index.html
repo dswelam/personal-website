@@ -1,96 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dania Swelam - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
+<head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>About Dania Swelam</title>
+</head>
+
+<body>
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Intro Section -->
     <section class="intro-section">
-    <div class="intro-container">
-        <div class="profile-pic">
-            <img src="photo_of_me.jpg" alt="A photo of Dania Swelam" />
+        <div class="intro-container">
+            <div class="profile-pic">
+                <img src="photo_of_me.jpg" alt="A photo of Dania Swelam" />
+            </div>
+            <div class="intro-text">
+                <h1>Hi There, I'm</h1>
+                <h2>Dania Swelam</h2>
+                <h3>Computer Science Student at NC State | AI Enthusiast</h3>
+                <p>Hello, my name is Dania! I’m passionate about <em>Artificial Intelligence</em>, <em>Data Science</em>, and <em>Software Development</em>. I enjoy applying problem-solving skills to build intelligent systems that improve lives. My academic journey is driven by curiosity and a desire to learn new things!</p>
+                <a href="#contact" class="button">Contact Me</a>
+            </div>
         </div>
-        <div class="intro-text">
-            <h1>Hi There, I'm</h1>
-            <h2>Dania Swelam</h2>
-            <h3>Computer Science Student at NCSU | AI and Cognitive Science Enthusiast</h3>
-            <p>Hello, my name is Dania! A few things about me are that I love <em>coffee</em>, <em>cats</em>, and <em>coding</em>.
-                I am half American, and half Egyptian. My cat is named <strong>Rosie</strong>! I am passionate about AI and its potential to change the world.</p>
-            <a href="#contact" class="button">Contact Me</a>
-        </div>
-    </div>
-</section>
-
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <h2>About Me</h2>
-        <p>I am currently pursuing a B.S. in Computer Science at NC State University, with a concentration in Artificial Intelligence. 
-            My technical skills include Java, Python, C, and JavaScript, along with frameworks such as TensorFlow and Keras.</p>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
-        <h2>My Skills</h2>
+    <section class="about-section">
+        <h3>About Me</h3>
+        <p>
+            I'm a junior at North Carolina State University, majoring in <strong>Computer Science</strong> with a concentration in <strong>Artificial Intelligence</strong> and a minor in <strong>Cognitive Science</strong>. I have a passion for building intelligent systems that can solve real-world problems. Prior to university, I worked in education, teaching English as a foreign language in Saudi Arabia for 6 years, which has strengthened my communication and leadership skills.
+        </p>
+        <p>
+            When I'm not coding, I enjoy reading about machine learning algorithms, baking, and spending time with my cat, Rosie. I aim to pursue a career as a Full Stack Developer, with a focus on integrating AI into software solutions.
+        </p>
+    </section>
+
+    <section class="skills-section">
+        <h3>My Skills</h3>
         <div class="skills-list">
             <div class="skill-item">
-                <h3>Programming</h3>
-                <p>Java, Python, C, JavaScript</p>
+                <h4>Python</h4>
             </div>
             <div class="skill-item">
-                <h3>Machine Learning</h3>
-                <p>TensorFlow, Keras, Pytorch</p>
+                <h4>Java</h4>
             </div>
             <div class="skill-item">
-                <h3>Web Development</h3>
-                <p>HTML, CSS, JavaScript</p>
+                <h4>Machine Learning</h4>
+            </div>
+            <div class="skill-item">
+                <h4>Data Science</h4>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <h2>My Projects</h2>
+    <section class="projects-section" id="projects">
+        <h3>My Projects</h3>
         <div class="project-list">
             <div class="project-item">
-                <h3>Veterinary Pet Managing System</h3>
-                <p>A software system to manage pet adoptions and veterinary appointments using Java and GUI integration.</p>
-                <a href="https://github.ncsu.edu/dswelam/vet-pet-manager" target="_blank">View on GitHub</a>
+                <h4>Project 1: AI Chatbot</h4>
+                <p>This project involves creating an AI-driven chatbot that uses natural language processing to interact with users in real time.</p>
+                <a href="https://github.ncsu.edu/dswelam/ai-chatbot" target="_blank">View on GitHub</a>
             </div>
             <div class="project-item">
-                <h3>Currency Exchange Program</h3>
-                <p>A backend system for automating currency exchange, including API integration for real-time rates.</p>
-                <a href="https://github.ncsu.edu/dswelam/currency-exchange" target="_blank">View on GitHub</a>
+                <h4>Project 2: Cognitive Science Research</h4>
+                <p>An in-depth research project on the intersection of AI and Cognitive Science.</p>
+                <a href="https://github.ncsu.edu/dswelam/cog-sci-research" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <h4>Project 3: Data Analysis in Python</h4>
+                <p>A Python project where I used data science libraries like pandas and NumPy to analyze large datasets.</p>
+                <a href="https://github.ncsu.edu/dswelam/data-analysis-python" target="_blank">View on GitHub</a>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to me through LinkedIn or GitHub.</p>
+    <section class="contact-section" id="contact">
+        <h3>Connect with Me</h3>
         <ul class="social-links">
-            <li><a href="http://www.linkedin.com/in/dania-swelam" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/dania-swelam" target="_blank">LinkedIn</a></li>
             <li><a href="https://github.ncsu.edu/dswelam" target="_blank">GitHub</a></li>
         </ul>
-        <p>&copy; 2024 Dania Swelam. All Rights Reserved.</p>
     </section>
 
+    <footer>
+        <p>&copy; 2024 Dania Swelam. All Rights Reserved.</p>
+    </footer>
 </body>
+
 </html>
