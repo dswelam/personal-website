@@ -1,156 +1,153 @@
-/* General Styling */
+/* Global Styling */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #0D0D2B;
-    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    background-color: #0B0E1A;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
-/* Navbar Styling */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #0D0D2B;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #7F63E7;
+h1, h2, h3 {
+    font-weight: 700;
 }
 
-.nav-links {
+/* Header Section */
+header {
+    padding: 20px 0;
+}
+
+header nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    justify-content: flex-end;
 }
 
-.nav-links li {
-    display: inline-block;
+header nav ul li {
+    margin: 0 20px;
 }
 
-.nav-links a {
-    color: #FFFFFF;
+header nav ul li a {
+    color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
-.nav-links a:hover {
-    color: #7F63E7;
+/* Intro Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
 }
 
-/* Hero Section */
-.hero-section {
+.intro-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 50px;
-    background-color: #0D0D2B;
-    height: 100vh;
+}
+
+.intro-text h1 span {
+    color: #00C6FF;
+}
+
+.intro-img img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.buttons .btn-primary, .buttons .btn-secondary {
+    padding: 10px 20px;
+    background-color: #00C6FF;
+    border: none;
+    border-radius: 5px;
     color: white;
-    margin-top: 60px;
+    margin: 10px 10px 0 0;
+    text-decoration: none;
 }
 
-.hero-content h1 {
-    font-size: 48px;
-    color: #FFFFFF;
+/* About Section */
+.about {
+    padding: 100px 0;
 }
 
-.hero-content span {
-    color: #7F63E7;
+/* Skills Section */
+.skills {
+    padding: 100px 0;
 }
 
-.cta-buttons {
-    margin-top: 20px;
+.skill {
+    margin: 20px 0;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #1F1F1F;
+    border-radius: 5px;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #00C6FF;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 100px 0;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+/* Certificates Section */
+.certificates {
+    padding: 100px 0;
+}
+
+.certificate-list img {
+    width: 200px;
+    margin: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 100px 0;
+    text-align: center;
 }
 
 .btn-primary {
-    padding: 10px 20px;
-    background-color: #7F63E7;
+    padding: 10px 30px;
+    background-color: #00C6FF;
     color: white;
-    text-decoration: none;
-    margin-right: 15px;
     border-radius: 5px;
-}
-
-.btn-secondary {
-    padding: 10px 20px;
-    background-color: transparent;
-    border: 1px solid #7F63E7;
-    color: #7F63E7;
     text-decoration: none;
-    border-radius: 5px;
 }
 
-.btn-primary:hover, .btn-secondary:hover {
-    background-color: #FFFFFF;
-    color: #7F63E7;
-}
-
-/* Photo and Image Container */
-.hero-image-container {
-    flex-basis: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.hero-image {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 5px solid #7F63E7;
-}
-
-/* Section Styling */
-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #1E1E2E;
-}
-
-.project-list, .skills-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.project-card, .skill-card, .certificate-card {
-    background-color: #333;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    width: 300px;
-    text-align: center;
-}
-
-.skill h3, .project h3, .certificate h3 {
-    color: #7F63E7;
-}
-
-.progress-bar {
-    background-color: #333;
-    border-radius: 10px;
-    width: 200px;
-    height: 20px;
-    margin-top: 10px;
-}
-
-.progress {
-    background-color: #7F63E7;
-    height: 100%;
-    border-radius: 10px;
-}
-
-/* Footer */
+/* Footer Section */
 footer {
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
-    background-color: #0D0D2B;
-    color: #FFFFFF;
+    background-color: #0D0D0D;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    color: #00C6FF;
+    margin: 0 10px;
+    text-decoration: none;
 }
