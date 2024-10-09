@@ -7,16 +7,16 @@ body {
     padding: 0;
 }
 
-h1, h2, h3 {
-    color: #FFFFFF;
-}
-
 /* Navbar Styling */
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background-color: #0D0D2B;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -28,7 +28,7 @@ h1, h2, h3 {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .nav-links li {
@@ -50,8 +50,11 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 100px 50px;
     background-color: #0D0D2B;
+    height: 100vh;
+    color: white;
+    margin-top: 60px;
 }
 
 .hero-content h1 {
@@ -91,7 +94,7 @@ h1, h2, h3 {
 }
 
 /* Section Styling */
-.about-section, .academics-section, .projects-section, .skills-section, .social-links-section, .contact-section {
+section {
     padding: 50px;
     text-align: center;
     background-color: #1E1E2E;
@@ -103,13 +106,16 @@ h1, h2, h3 {
     gap: 20px;
 }
 
-.project, .skill {
+.project-card, .skill-card, .certificate-card {
     background-color: #333;
     border-radius: 10px;
     padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
 }
 
-.skill h3 {
+.skill h3, .project h3, .certificate h3 {
     color: #7F63E7;
 }
 
